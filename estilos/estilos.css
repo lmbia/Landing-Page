@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    --color-ppal: #ff0175;
+    --color-hover: #ff00aa;
+    scroll-behavior: smooth;
+}
+
+.btn-primary {
+    background-color: var(--color-ppal);
+    border-color: var(--color-ppal);
+}
+
+.btn-primary:hover {
+    background-color: var(--color-hover);
+    border-color: var(--color-hover);
+}
+
+.btn-secundario{
+    color: var(--color-ppal);
+    border: 1px solid #ff0175;
+}
+
+.btn-secundario:hover {
+    color: var(--color-hover);
+    border: 1px solid var(--color-hover);
+}
+
+h1 {
+    position: absolute;
+    display: block;
+    width: 150px;
+    height: 56px;
+    top: 0px;
+    z-index: 1;
+    left: calc(50% - 75px);
+    margin-bottom: 0;  
+}
+
+h1 a {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    height: 100%;
+    text-indent: -999px;
+    overflow: hidden;
+    background-image: url(../img/logo-la-dinastia-solo-mobile.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+.navbar-collapse {
+    padding: .8rem;
+}
+
+.nav-link:hover{
+    color: var(--color-ppal) !important;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+
+.btn:active {
+    color: #ffffff !important;
+    outline: none !important;
+    background-color: #ff00aa !important;
+    border-color: #ff00aa !important;
+  }
+
+.btn:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    background-color: var(--color-ppal);
+    border-color: var(--color-ppal);
+}
+
+
+
+#inicio {
+    background-image: url(../img/banner-la-dinastia-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo-app {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    text-indent: -999px;
+    overflow: hidden;
+    background-image: url(../icons/icono-app-logo-la-dinastia.png);
+    background-size: cover;
+    vertical-align: middle;
+}
+
+.logo-android {
+    display: inline-block;
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    text-indent: -999px;
+    overflow: hidden;
+    background-image: url(../icons/icono-app-android.png);
+    background-size: cover;
+}
+.icon-tactil {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-indent: -999px;
+    overflow: hidden;
+    background-image: url(../icons/icono-tactil-app.png);
+    background-size: cover;
+    background-position: center;
+}
+.icon-caract {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-indent: -999px;
+    overflow: hidden;
+    background-image: url(../icons/icono-caracteristicas-app.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.letra-dinastia {
+    font-family: 'Libre Baskerville', serif;
+    color: var(--color-ppal);
+}
+
+.app-neg {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--color-ppal);
+}
+
+.icon-ofertas {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-indent: -999px;
+    overflow: hidden;
+    background-image: url(../icons/icono-app-descuento.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.icon-envio {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-indent: -999px;
+    overflow: hidden;
+    background-image: url(../icons/icono-app-entrega.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.icon-regalo {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-indent: -999px;
+    overflow: hidden;
+    background-image: url(../icons/icono-app-regalo.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.icon-chat {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-indent: -999px;
+    overflow: hidden;
+    background-image: url(../icons/icono-app-chat.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#beneficios div div {
+    background-color: rgb(247, 247, 247);
+    border-radius: 8px;
+    padding: .9rem;
+}
+
+#beneficios h2, #beneficios p {
+    margin-bottom: 0;
+}
+
+#caracteristicas ul li:before {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-indent: -999px;
+    overflow: hidden;
+    background-image: url(../icons/icono-check-app.png);
+    background-size: cover;
+    background-position: center;
+    vertical-align: -10px;
+    margin-right: 10px;
+}
+
+#caracteristicas ul li {
+   margin-bottom: 15px;
+}
+
+
+#app {
+    background-image: url(../img/descarga-app-la-dinastia-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+
+
+.btn-ter {
+    background-color: white;
+    color: var(--color-ppal);
+    border: none;
+}
+
+.btn-ter:hover {
+    background-color: var(--color-hover);
+    color: white;
+    border: none;
+}
+
+aside {
+    background-color: rgb(255, 251, 242);
+}
+
+
+
+.redes-sociales li {
+    display: block;
+    margin: 0 20px;
+    height: 30px;
+    width: 30px;
+}
+
+.redes-sociales li a {
+    display: block;
+    height: 30px;
+    width: 30px;
+    font-size: 0;
+}
+   
+.redes-sociales li {
+    background-image: url(../icons/redes-sociales-sprite-ngo.png);
+    background-size: cover;
+}
+.redes-sociales li:nth-child(1) {
+    background-position-x: -0.5px;
+}
+
+.redes-sociales li:nth-child(2) {
+    background-position-x: -31px;
+}
+
+.redes-sociales li:nth-child(3) {
+    background-position-x: -62px;
+}
+
+.redes-sociales li:nth-child(4) {
+    background-position-x: -92.5px;
+}
+
+.redes-sociales li:hover {
+    background-image: url(../icons/redes-sociales-sprite-bco.png);
+    background-size: cover;
+}
+.redes-sociales li:nth-child(1):hover {
+    background-position-x: -0.5px;
+}
+
+.redes-sociales li:nth-child(2):hover {
+    background-position-x: -31px;
+}
+
+.redes-sociales li:nth-child(3):hover {
+    background-position-x: -62px;
+}
+
+.redes-sociales li:nth-child(4):hover {
+    background-position-x: -92.5px;
+}
+
+footer {
+    background-color: rgb(248, 248, 248);
+}
+
+/* Media Queries */
+
+@media screen and (min-width: 576px) {
+    #inicio {
+        background-image: url(../img/banner-la-dinastia-tablet.jpg);
+     
+    }
+    
+    #app {
+        background-image: url(../img/descarga-app-la-dinastia-desktop.jpg);
+        max-width: 1300px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    h1 {
+        left: 0;
+        margin-top: .75rem;
+        width: 300px;
+        text-align: left;
+    }
+
+    h1 a {
+        background-image: url(../img/logo-la-dinastia-horizontal-desktop.png);
+        width: 100%;
+    }
+
+
+#inicio {
+    background-image: url(../img/banner-la-dinastia-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-position-y: top;
+}
+
+    #inicio h2 {
+        font-size: 3rem;
+    }
+
+    .nav-link {
+        font-size: .9rem;
+    }
+  
+
+    
+ 
+}
